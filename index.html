@@ -22,10 +22,14 @@
       padding: 40px 20px;
     }
 
+    /* Logo styles: smaller and circular */
     .logo {
       display: block;
       margin: 0 auto 30px auto;
-      max-width: 200px;
+      width: 120px;       /* fixed width */
+      height: 120px;      /* fixed height */
+      border-radius: 50%; /* make it circular */
+      object-fit: cover;  /* ensures it doesn't stretch */
     }
 
     h1 {
